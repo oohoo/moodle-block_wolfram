@@ -3,6 +3,9 @@ For [Moodle](https://moodle.org)
 
 ![Wolfram](https://github.com/oohoo/moodle-block_wolfram/blob/master/image1.png?raw=true "Wolfram")
 
+This simple block allows queries to be sent to Wolfram from within a Moodle instance. The results are conveniently
+returned in a popup window that opens within Moodle.
+
 ### Installation
 
 1. Get the zip file `wolfram.zip` ([DOWNLOAD](https://github.com/oohoo/moodle-block_wolfram/archive/master.zip))
