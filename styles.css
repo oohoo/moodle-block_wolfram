@@ -1,0 +1,74 @@
+/**
+ * *************************************************************************
+ * *                               MathEditor                             **
+ * *************************************************************************
+ * @package     block                                                     **
+ * @subpackage  wolfram                                                   **
+ * @name        Wolfram                                                   **
+ * @copyright   oohoo.biz                                                 **
+ * @link        http://oohoo.biz                                          **
+ * @author      Raymond Wainman, Dustin Durand                            **
+ * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later  **
+ * *************************************************************************
+ * ************************************************************************ */
+
+ .block_wolfram .wolfram_form {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border:1px solid #DDDDDD;
+    -webkit-box-shadow: #B3B3B3 1px 1px 1px;
+    -moz-box-shadow: #B3B3B3 1px 1px 1px;
+    box-shadow: #B3B3B3 1px 1px 1px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    padding-left: 7px;
+    padding-right: 10px;
+}
+
+.block_wolfram .wolfram_input {
+    position: relative;
+}
+
+.block_wolfram .wolfram_text {
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    border:1px solid #F3842A;
+    width:100%;
+    margin-right: 1px;
+    height: 16px;
+}
+
+.block_wolfram .wolfram_button {
+    border: 0;
+    color: #FFFFFF;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    height: 12px;
+    width: 12px;
+    cursor: pointer;
+    background-color: #F3842A;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+    position: absolute;
+    top: 3px;
+    right: 2px;
+}
+
+.block_wolfram .wolfram_dialog {
+    display: none;
+}
+
+.block_wolfram a {
+    font-size: 9px;
+    color: gray;
+}
+
+.wolfram_iframe {
+    width:100%;
+    min-height:750px;
+    overflow:scroll;
+}
