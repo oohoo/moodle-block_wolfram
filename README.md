@@ -5,7 +5,7 @@ For [Moodle](https://moodle.org)
 
 ### Installation
 
-1. Get the zip file `wolfram.zip` ([DOWNLOAD](http://dl.bintray.com/raywainman/generic/wolfram.zip?direct))
+1. Get the zip file `wolfram.zip` ([DOWNLOAD](https://github.com/oohoo/moodle-block_wolfram/archive/master.zip))
 2. To install this file, upload the zip file in your Moodle plugin installation page as a **Block** type
     `http://moodle_root/admin/tool/installaddon/index.php`
 
